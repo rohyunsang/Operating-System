@@ -1,0 +1,26 @@
+H/W Physical
+S/W Logical ≒ Virtual
+
+3 Layer
+User
+Kernel
+H/W
+
+Operating System is software
+OS, CPU are platporm
+OS is just software like ms word
+OS almost multi-processing system
+OS's job to manage processes well
+
+Interrupt
+
+Computer I/O other peripherals occur interrupt
+
+printf => OS control video(monitor)
+How? Process call API 
+Interface : abstract device => File 
+if File pass Kernel then run some code(~Write())
+control device driver ask interrupt (interrupt request)
+
+Interrupt , IRQ , API , System Call
+
