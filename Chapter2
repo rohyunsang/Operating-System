@@ -2,3 +2,20 @@ Machine check interrupt
 External interrupt
 I/O interrupt
 
+
+Interrupt operation sequence
+1. IRQ interrupt request
+2. wait current program
+3. saving current program counter(PC)
+4. interrut handling routine
+5. ISR interrupt service routine
+6. recervey PC
+7. resuming interrupted program execution
+
+Interrupt priority sequence 
+Power fail > Machine Check > External > I/O > Commend Error > Program Check > SuperVisor Call
+
+memory manager in Mainboard 
+user => kernel : context switching
+
+Direct X high performance interface 
