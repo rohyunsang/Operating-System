@@ -1,0 +1,9 @@
+DMA : Direct Memory Access
+
+User File => Tcp/Ip Socket
+
+malloc () Heap memory (UserMode Application memory)
+
+DMA Unnecessary memory is eliminated and performance is improved
+Commonly NIC(Network Interface card) use DMA => fast socket read/write
+
