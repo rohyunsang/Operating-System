@@ -4,3 +4,5 @@ Computer(internal) CPU + RAM
 External(Storage) HDD + SSD + USB (File System) + Backup Device
 
 Speed RAM X 50 = CPU 
+GPU Core 4000↑
+PIM(Processing in Memory) : operation fuction in memory 
